@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,span,input,button{
+    font-family: 'Playfair Display', serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+
+/* Header section css */
+.header{
+    width: 100%;
+    display: flow-root;
+}
+.navbar{
+    width: 100%;
+    float: left;
+    padding: 45px 0px;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu-item{
+    width: 80%;
+    float: right;
+    text-align: right;
+}
+.menu-item ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 95px;
+}
+.menu-item ul li a{
+	text-transform: uppercase;
+	color: #929292;
+}
+.menu-item ul li a:hover{
+	color: #000;
+}
+
+
+/* Banner section css */
+.banner{
+    width: 100%;
+    display: flow-root;
+}
+.post-content{
+    padding: 82px;
+}
+.category{
+    text-transform: uppercase;
+	color: #b4ad9e;
+}
+.title{
+	color: #626262;
+    margin: 20px 0;
+    margin-bottom: 25px;
+}
+.desc{
+	color: #626262;
+	margin-bottom: 40px;
+}
+.comment{
+	text-transform: uppercase;
+    color: #b4ad9e;
+    margin-bottom: -15px;
+}
+.comment a{
+	color:  #b4ad9e;
+}
+.comment a:hover{
+	color: rgb(97, 97, 97);
+}
+
+
+/* Post gallery section css */
+.posts{
+    width: 100%;
+    display: flow-root;
+}
+.gallery{
+    padding: 85px;
+    display: flow-root;
+}
+.post{
+    width: 100%;
+    float: left;
+}
+.left{
+    width: 47%;
+    float: left;
+}
+.right{
+    width: 47%;
+    float: right;
+}
+.post .category{
+	margin-top: 24px;
+}
+.post .desc{
+	margin-bottom: 60px;;
+}
+.post-second{
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+
+/* subscription section css */
+.subscription{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.form-body{
+	text-align: center;
+	padding: 65px 0;;
+}
+.subscription h1{
+	margin-bottom: 40px;
+}
+form input{
+	padding: 15px 0px;
+	width: 380px;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+}
+form input:focus{
+	outline: none;
+}
+form{
+	position: relative;
+}
+form i img{
+	position: absolute;
+	right: 383px;
+    top: 18px;
+	transform: rotate(-52deg);
+}
+.load-more{
+	text-align: center;
+	margin: 30px 0;
+}
+.load-more button{
+	padding: 16px 40px;
+	background: transparent;
+	border: none;
+	border: 1px solid #b4ad9e;
+    font-size: 20px;
+	color: #626262;
+	margin-bottom: 80px;
+}
+.load-more button:hover{
+	background: #f0f0f0;
+	color:#626262;
+	cursor: pointer;
+}
+
+
+/* footer section css */
+.footer{
+	width: 100%;
+	display: flow-root;
+	background: #f0f0f0;
+}
+.footer-body{
+	width: 100%;
+	float: left;
+	padding: 35px 0;
+}
+.left-footer{
+	width: 40%;
+	float: left;
+}
+.right-footer{
+	width: 58%;
+	float: left;
+}
+.left-footer ul li{
+	list-style: none;
+    display: inline-block;
+}
+.right-footer ul{
+	text-align: right;
+}
+.right-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+    transition: 0.5s ease;
+}
+.right-footer ul li i{
+	font-size: 16px;
+	transition: 0.5s ease;
+}
+.right-footer ul li i:hover{
+	transform: scale(1.6);
+	transition: 0.5s ease;
+	cursor: pointer;
+}
+.terms{
+	padding-left: 85px;
+	margin-right: 20px;
+}
